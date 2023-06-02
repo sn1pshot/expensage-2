@@ -1,9 +1,13 @@
 import React from "react";
+import styles from "./page.module.css";
+
 
 const About = () => {
   return (
-    <div>
-      <h1>About</h1>
+    <div className={styles.container}>
+      <div className={styles.imgContainer}>
+        
+      </div>
     </div>
   );
 };
