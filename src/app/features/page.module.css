@@ -22,20 +22,18 @@
 }
 
 .title{
-    font-size: 72px;
-    background:linear-gradient(to bottom, #111, #E0447d);
-
-}
-
-.button{
-    padding: 20px;
-    cursor: pointer;
-    background-color: #E0447d;
-    color: white;
-    border-radius: 5px;
-    width: max-content;
-    margin: 0 auto;
+    font-size: 64px;
+    font-weight: 700;
+    font-style:normal;
+    font-stretch: wider;
+    color: #E0447d;
+    text-align: center;
+    line-height: 36px;
+    position: absolute;
+    height: 37px;
+    
 
 
     
+
 }
