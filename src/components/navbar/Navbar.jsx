@@ -33,8 +33,6 @@ const Navbar = () => {
             {link.title}
           </Link>
         ))}
-        <button className={styles.logout}
-        onClick={() => {console.log("logged out")}}>Logout</button>
       </div>
     </div>
   );
