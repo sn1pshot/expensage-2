@@ -3,26 +3,6 @@ import styles from "./page.module.css";
 
 export default function Features() {
   return (
-    // <div>
-    //   <div className="flex-col">
-    //     <div>
-    //     <div className={styles.title}>
-    //       <h>Scan your Bills</h>
-    //     </div>
-    //     <div>
-    //       <h>
-    //         The user will have the ability to view their expense history along
-    //         with the categories of their expenditures.
-    //       </h>
-    //     </div>
-    //     </div>
-    //     <div>
-    //       <Image src="/FIRST.svg" alt="logo" width={713} height={535}/>
-    //     </div>
-    //   </div>
-    //   <div></div>
-    //   <div></div>
-    // </div>
     <div>
       <div>
         <div className={styles.title}>
@@ -45,7 +25,10 @@ export default function Features() {
           </div>
         </div>
       </div>
-      <div></div>
+      <div>
+        
+
+      </div>
       <div></div>
     </div>
   );
