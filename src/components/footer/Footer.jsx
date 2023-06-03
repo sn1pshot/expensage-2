@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Footer.module.css";
 import Image from "next/image";
-import Links from "next/link";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -14,7 +14,8 @@ const Footer = () => {
           width={18}
           height={16}
         />
-      </div>
+        <Link href="https://github.com/skizzle010/expensage"/>
+      </div>  
     </div>
   );
 };
