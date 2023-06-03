@@ -67,8 +67,8 @@ model Item {
   itemId        String    @id @default(cuid())
   itemname      String
   Price         Int
-  Category      Category? @relation(fields: [categoryCatid], references: [catid])
-  categoryCatid String?
+  Category      Category? @relation(fields: [cat_id], references: [catid])
+  cat_id String?
 }
 
 model VerificationRequest {
